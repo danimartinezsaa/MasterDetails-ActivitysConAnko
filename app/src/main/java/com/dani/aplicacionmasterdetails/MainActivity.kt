@@ -27,12 +27,15 @@ class MainActivity : AppCompatActivity() {
                 toast("¡HOLA!")
             } else{
                 //Lanzar otra Activity con Anko
-                startActivity<SegundaActivity>()
+                startActivity<SegundaActivity>(
+                    //Le enviamos un valor a la Activity que lanzamos
+                    "id" to 5
+                )
             }
         }
 
         marca.setOnClickListener {
-            //Abrir url con el navegador
+            //Abrir url en el navegador
             browse("https://www.marca.com")
         }
     }
