@@ -6,4 +6,11 @@
     <string name="volver">Volver</string>
     <string name="marca">Marca</string>
     <string name="n_mero">Número:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="esto_es_un_fragment">Esto es un fragment</string>
+    <string name="button">Button</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="devuelto_del_fragment">Devuelto del fragment:</string>
 </resources>
